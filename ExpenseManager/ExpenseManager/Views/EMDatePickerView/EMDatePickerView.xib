@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EMDatePickerView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.69999999999999973" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZP-1X-KLu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQs-eL-IW4">
+                    <rect key="frame" x="10" y="181" width="300" height="207"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <datePicker tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="3O6-q6-jUz">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="162"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <date key="date" timeIntervalSinceReferenceDate="426541211.91670698">
+                                <!--2014-07-08 19:40:11 +0000-->
+                            </date>
+                            <timeZone key="timeZone" name="America/Los_Angeles">
+                                <data key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</data>
+                            </timeZone>
+                        </datePicker>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5I-O3-isy">
+                            <rect key="frame" x="0.0" y="163" width="150" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="RNh-Rr-WUU"/>
+                            </constraints>
+                            <state key="normal" title="Cancel">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnCancelClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="dsc-gu-jJD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSi-5N-f1I">
+                            <rect key="frame" x="151" y="163" width="149" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="kKa-Y3-dao"/>
+                            </constraints>
+                            <state key="normal" title="Done">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnDoneClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="ekY-ug-PjM"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsb-JC-hgt">
+                            <rect key="frame" x="150" y="163" width="1" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="3lv-Kl-wS3"/>
+                                <constraint firstAttribute="width" constant="1" id="uK0-FR-RlQ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="90P-E7-SqZ">
+                            <rect key="frame" x="0.0" y="162" width="300" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="pLV-zS-894"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3O6-q6-jUz" firstAttribute="leading" secondItem="MQs-eL-IW4" secondAttribute="leading" id="6fD-4t-giP"/>
+                        <constraint firstAttribute="bottom" secondItem="T5I-O3-isy" secondAttribute="bottom" id="AQS-AS-qwI"/>
+                        <constraint firstAttribute="width" constant="300" id="BsP-wi-hxk"/>
+                        <constraint firstAttribute="trailing" secondItem="MSi-5N-f1I" secondAttribute="trailing" id="LwD-jY-EXp"/>
+                        <constraint firstAttribute="trailing" secondItem="3O6-q6-jUz" secondAttribute="trailing" id="Mre-CD-eED"/>
+                        <constraint firstItem="T5I-O3-isy" firstAttribute="leading" secondItem="MQs-eL-IW4" secondAttribute="leading" id="NTd-tw-6tf"/>
+                        <constraint firstAttribute="bottom" secondItem="lsb-JC-hgt" secondAttribute="bottom" id="P5v-sj-qcV"/>
+                        <constraint firstAttribute="trailing" secondItem="90P-E7-SqZ" secondAttribute="trailing" id="Vmv-uZ-Zdx"/>
+                        <constraint firstAttribute="height" constant="207" id="WtK-rg-cT3"/>
+                        <constraint firstItem="3O6-q6-jUz" firstAttribute="top" secondItem="MQs-eL-IW4" secondAttribute="top" id="XWO-1y-Ig5"/>
+                        <constraint firstItem="MSi-5N-f1I" firstAttribute="leading" secondItem="T5I-O3-isy" secondAttribute="trailing" constant="1" id="dFw-KU-CGa"/>
+                        <constraint firstAttribute="centerX" secondItem="lsb-JC-hgt" secondAttribute="centerX" constant="-0.5" id="fVR-Lm-Q26"/>
+                        <constraint firstAttribute="bottom" secondItem="MSi-5N-f1I" secondAttribute="bottom" id="gdL-CU-WDi"/>
+                        <constraint firstItem="T5I-O3-isy" firstAttribute="width" secondItem="MSi-5N-f1I" secondAttribute="width" id="jiK-lT-kSF"/>
+                        <constraint firstItem="MSi-5N-f1I" firstAttribute="top" secondItem="90P-E7-SqZ" secondAttribute="bottom" id="mBs-Qc-iPh"/>
+                        <constraint firstItem="90P-E7-SqZ" firstAttribute="top" secondItem="3O6-q6-jUz" secondAttribute="bottom" id="q9q-SS-RV6"/>
+                        <constraint firstItem="90P-E7-SqZ" firstAttribute="leading" secondItem="MQs-eL-IW4" secondAttribute="leading" id="voL-Ih-UYd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gZP-1X-KLu" secondAttribute="trailing" id="74P-gn-Ugj"/>
+                <constraint firstItem="gZP-1X-KLu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Kok-MI-EGv"/>
+                <constraint firstAttribute="bottom" secondItem="gZP-1X-KLu" secondAttribute="bottom" id="Oyl-Eb-YLr"/>
+                <constraint firstItem="gZP-1X-KLu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Rt2-E5-SJl"/>
+                <constraint firstAttribute="centerX" secondItem="MQs-eL-IW4" secondAttribute="centerX" id="myA-Vr-u5e"/>
+                <constraint firstAttribute="centerY" secondItem="MQs-eL-IW4" secondAttribute="centerY" constant="-0.5" id="pHE-8E-3qf"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="datePicker" destination="3O6-q6-jUz" id="xLq-WM-5iQ"/>
+            </connections>
+        </view>
+    </objects>
+</document>

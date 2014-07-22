@@ -84,6 +84,12 @@
 
  }
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if ([_totalExpense floatValue]> 0) {
+        return YES;
+    }
+    return NO;
+}
 
 - (void)loadTotalExpense {
     NSCalendar *cal = [NSCalendar currentCalendar];
